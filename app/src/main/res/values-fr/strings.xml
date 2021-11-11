@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">iDialer</string>
+
+    <!--<string name="app_name">callingappbottomnavigation</string>-->
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+    <string name="opendialer">Ouvrir numéroteur</string>
+
+    <string name="banneradUnitIdMainActivity">ca-app-pub-3940256099942544/6300978111</string>
+
+    <string name="banneradUnitIdDialerActivity">ca-app-pub-3940256099942544/6300978111</string>
+
+    <string name="interstitialadUnitIdContactDetailActivity">ca-app-pub-3940256099942544/1033173712</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+    <string name="hello_blank_fragment">Bonjour fragment vierge</string>
+
+    <string name="str_message">un message</string>
+
+    <string name="str_add_favorite">ajouter des favoris</string>
+
+    <string name="str_call">appel</string>
+
+    <string name="str_mobile">mobile</string>
+
+    <string name="str_send_message">Envoyer le message</string>
+
+    <string name="str_share_contact">Partager Contact</string>
+
+    <string name="str_add_to_favorites">Ajouter aux Favoris</string>
+
+    <string name="str_delete_this_contact">Supprimer ce contact</string>
+
+    <string name="str_block_this_caller">bloquer cet appelant</string>
+
+    <!--Theme Resource-->
+
+
+    <string name="theme">Thème</string>
+
+    <string name="themeLight">Légère</string>
+
+    <!--Font Resource-->
+
+
+    <string name="font">Police de caractère</string>
+
+    <string name="fontLight">Moyen</string>
+
+    <!--App Language Resource-->
+
+
+    <string name="appLang">Langue de l\'application</string>
+
+    <string name="appLangLight">Langue du téléphone(française)</string>
+
+    <!--Block Resource-->
+
+
+    <string name="block">Bloquer les contacts</string>
+
+    <string name="blockLight">Afficher les contacts bloqués</string>
+
+    <!--Settings Resource-->
+
+
+    <string name="settings">Paramètres</string>
+
+    <!--Back Resource-->
+
+
+    <string name="back">Arrière</string>
+
+    <string name="title_activity_block_contact">Bloquerl \'activitédeContact</string>
+
+    <!--This string is used for square devices and overridden by hello_world invalues-round/strings.xml for round devices. -->
+
+
+    <string name="hello_world">Bonjour Square World !</string>
+
+    <string name="str_block_contacts">Bloquer les contacts</string>
+
+    <string name="yes">Oui</string>
+
+    <string name="selectLanguage">Choisissez la langue</string>
+
+    <string name="went_worng">Une erreur s\'est produite. Veuillez réessayer</string>
+
+    <string name="contact">Contact</string>
+
+    <string name="edit">Éditer</string>
+    <string name="unblock_caller">Débloquer cet appelant</string>
+
+    <string name="contact_remove">Contact supprimé avec succès</string>
+    <string name="contact_remove_from_favourites">Contact supprimé des favoris</string>
+
+    <string name="contact_added">Contact ajouté avec succès</string>
+    <string name="contact_added_to_favourites">Contact ajouté aux favoris</string>
+
+    <string name="confirm_to_block_number">Confirmer pour bloquer ce numéro ?</string>
+
+    <string name="contact_block">Contact bloqué</string>
+
+    <string name="cancel">Annuler</string>
+
+    <string name="unblock_this_caller">Débloquer cet appelant</string>
+
+    <string name="delete_contact">Supprimer ce contact ?</string>
+
+    <string name="delete_contact_alert">Sera supprimé de votre liste de contacts</string>
+
+    <string name="ok">OK</string>
+
+    <string name="confirmation_of_unblock">Confirmer pour débloquer ce numéro ?</string>
+
+    <string name="contact_unblock">Contact débloqué</string>
+
+    <string name="idialer_become_default">iDialer devient le numéroteur par défaut</string>
+
+    <string name="alert">Alerte</string>
+
+    <string name="alert_massage">Pour afficher l\'historique des appels et passer des appels, veuillez autoriser cette application à utiliser comme numéroteur par défaut. Autorisez également les autorisations pour exécuter parfaitement cette application.</string>
+
+    <string name="dialpad">Pavé numérique</string>
+
+    <string name="str_name_here">Nom ici</string>
+
+    <string name="str_add_number">Ajouter un numéro</string>
+
+    <string name="str_create_new_contact">Créer un nouveau contact</string>
+
+    <string name="str_add_to_a_contact">Ajouter aux contacts</string>
+
+    <string name="str_send_sms">Envoyer un SMS</string>
+
+    <string name="str_langauage_already_applied">Langue déjà appliquée</string>
+
+    <string name="str_unblock_this_contact">sera supprimé de votre liste de blocage</string>
+
+    <string name="str_unblock">Débloquer</string>
+
+    <string name="str_contact_remove">Contact supprimé</string>
+
+    <string name="str_unknown">Inconnue</string>
+
+    <string name="str_add_contact">Ajouter le contact +</string>
+
+    <string name="str_search_contacts">Trouver des contacts</string>
+
+    <string name="str_no_miss_call">Aucun journal des appels manqués disponible</string>
+
+    <string name="str_all">Tout</string>
+
+    <string name="str_missed">Manqué</string>
+
+    <string name="str_recent">Récent</string>
+
+    <string name="str_favourites">Favoris</string>
+    <string name="str_contacts">Contacts</string>
+    <string name="str_keypad">Clavier</string>
+
+    <string name="str_light_theme">Légère</string>
+    <string name="str_dark_theme">Sombre</string>
+
+    <string name="str_choose_theme">Choisissez le thème</string>
+
+    <string name="str_yesterday">Hier</string>
+    <string name="str_unblock_massage">Contact supprimé de la liste de blocage</string>
+    <string name="str_contact_not_found">Contact non trouvé</string>
+    <string name="str_enter_number">Veuillez entrer le numéro</string>
+    <string name="str_select_sim">Sélectionnez Sim</string>
+</resources>

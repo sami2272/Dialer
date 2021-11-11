@@ -1,0 +1,102 @@
+<resources>
+    <string name="app_name">iDialer</string>
+    <!--<string name="app_name">callingappbottomnavigation</string>-->
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="opendialer">OpenDialer</string>
+
+    <string name="banneradUnitIdMainActivity">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="banneradUnitIdDialerActivity">ca-app-pub-3940256099942544/6300978111</string>
+
+    <string name="interstitialadUnitIdContactDetailActivity">ca-app-pub-3940256099942544/1033173712</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="str_message">message</string>
+    <string name="str_add_favorite">add favorites</string>
+    <string name="str_call">call</string>
+    <string name="str_mobile">mobile</string>
+    <string name="str_send_message">Send Message</string>
+    <string name="str_share_contact">Share Contact</string>
+    <string name="str_add_to_favorites">Add to Favorites</string>
+    <string name="str_delete_this_contact">Delete this Contact</string>
+    <string name="str_block_this_caller">Block this Caller</string>
+
+    <!--Theme Resource-->
+    <string name="theme">Theme</string>
+    <string name="themeLight">Light</string>
+
+    <!--Font Resource-->
+    <string name="font">Font</string>
+    <string name="fontLight">Medium</string>
+
+    <!--App Language Resource-->
+    <string name="appLang">App Language</string>
+    <string name="appLangLight">Phone language (English)</string>
+
+    <!--Block Resource-->
+    <string name="block">Block Contacts</string>
+    <string name="blockLight">Show Blocked Contacts</string>
+
+    <!--Settings Resource-->
+    <string name="settings">Settings</string>
+    <!--Back Resource-->
+    <string name="back">Back</string>
+    <string name="title_activity_block_contact">BlockContactActivity</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    <string name="str_block_contacts">Block Contacts</string>
+    <string name="yes">yes</string>
+    <string name="selectLanguage">Select Language</string>
+    <string name="went_worng">Something went wrong.Please try again</string>
+    <string name="contact">Contact</string>
+    <string name="edit">Edit</string>
+    <string name="unblock_caller">Unblock this Caller</string>
+    <string name="contact_remove">Contact remove Successfully</string>
+    <string name="contact_remove_from_favourites">Contact removed from favorites</string>
+    <string name="contact_added">Contact Added Successfully</string>
+    <string name="contact_added_to_favourites">Contact added to favorites</string>
+    <string name="confirm_to_block_number">Confirm to block this number?</string>
+    <string name="contact_block">Contact Blocked</string>
+    <string name="cancel">Cancel</string>
+    <string name="unblock_this_caller">Unblock this Caller</string>
+    <string name="delete_contact">Delete this contact?</string>
+    <string name="delete_contact_alert">will be removed from your Contact List</string>
+    <string name="ok">OK</string>
+    <string name="confirmation_of_unblock">Confirm to Unblock this number?</string>
+    <string name="contact_unblock">Contact Unblocked</string>
+    <string name="idialer_become_default">iDialer become default dialer</string>
+    <string name="alert">Alert</string>
+    <string name="alert_massage">To view call history and make calls, please allow this app to use as default dialer. Also allow the permissions to run this app perfectly.</string>
+    <string name="dialpad">Dialpad</string>
+    <string name="str_name_here">Name here</string>
+    <string name="str_add_number">Add Number</string>
+    <string name="str_create_new_contact">Create new contact</string>
+    <string name="str_add_to_a_contact">Add to a contact</string>
+    <string name="str_send_sms">Send SMS</string>
+    <string name="str_langauage_already_applied">Language Already Applied</string>
+    <string name="str_unblock_this_contact"> will be removed from your Block List</string>
+    <string name="str_unblock">Unblock</string>
+    <string name="str_unblock_massage">Contact removed from blocklist</string>
+    <string name="str_contact_remove">Contact Removed</string>
+    <string name="str_unknown">Unknown</string>
+    <string name="str_add_contact">Add Contact +</string>
+    <string name="str_search_contacts">Search Contacts</string>
+    <string name="str_no_miss_call">No Missed Call Logs Available</string>
+    <string name="str_all">All</string>
+    <string name="str_missed">Missed</string>
+    <string name="str_recent">Recent</string>
+    <string name="str_favourites">Favourites</string>
+    <string name="str_contacts">Contacts</string>
+    <string name="str_keypad">Keypad</string>
+    <string name="str_light_theme">Light</string>
+    <string name="str_dark_theme">Dark</string>
+    <string name="str_choose_theme">Choose theme</string>
+    <string name="str_yesterday">Yesterday</string>
+    <string name="str_contact_not_found">Contact not found</string>
+    <string name="str_enter_number">Please Enter Number</string>
+    <string name="str_select_sim">Select Sim</string>
+
+
+</resources>

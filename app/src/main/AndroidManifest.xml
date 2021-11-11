@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dialler.ct"
+    >
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.READ_CALL_LOG"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.WRITE_CONTACTS"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+
+    <application
+        android:label="@string/app_name"
+        android:allowBackup="true"
+        android:supportsRtl="true"
+        android:icon="@drawable/icon"
+        android:name=".ads.AdsManager"
+        android:hardwareAccelerated="true"
+        android:roundIcon="@drawable/icon"
+        android:theme="@style/Theme.Callingappbottomnavigation">
+    <receiver android:name=".broadcastReceiver.MyReceiver"
+        android:enabled="true"
+        android:exported="true">
+<intent-filter>
+    <action android:name="my.android.Broadcast"></action>
+    <action android:name="android.intent.action.MEDIA_BUTTON"/>
+</intent-filter>
+    </receiver>
+        <activity android:name=".activity.Setting_Activity"
+
+            android:screenOrientation="portrait"
+            /> <!-- App ID : ca-app-pub-3182793700704852~8767554109 -->
+        <activity
+            android:name=".activity.ContactDetailActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activity.MainActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustNothing">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <action android:name="android.intent.action.DIAL" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="tel" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.DIAL" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.BlockContactActivity"
+            android:screenOrientation="portrait"/>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3182793700704852~8767554109" />
+
+    </application>
+
+</manifest>

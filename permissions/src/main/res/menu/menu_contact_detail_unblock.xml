@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_edit_contact"
+        android:title="Edit Contact"
+        />
+    <item
+        android:id="@+id/menu_delete_contact"
+        android:title="Delete Contact"
+        />
+
+    <item
+        android:id="@+id/menu_unblock_contact"
+        android:title="Unblock Contact"
+        />
+
+</menu>

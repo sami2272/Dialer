@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    <string name="app_name">iDialer</string>-->
+    <string name="app_name">آئی ڈائلر</string>
+
+    <!--<string name="app_name">callingappbottomnavigation</string>-->
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+    <string name="opendialer">اوپن ڈائلر</string>
+
+    <string name="banneradUnitIdMainActivity">ca-app-pub-3940256099942544/6300978111</string>
+
+    <string name="banneradUnitIdDialerActivity">ca-app-pub-3940256099942544/6300978111</string>
+
+    <string name="interstitialadUnitIdContactDetailActivity">ca-app-pub-3940256099942544/1033173712</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+    <string name="hello_blank_fragment">ہیلو خالی ٹکڑا</string>
+
+    <string name="str_message">پیغام</string>
+
+    <string name="str_add_favorite">پسندیدہ شامل کریں</string>
+
+    <string name="str_call">کال</string>
+
+    <string name="str_mobile">موبائل</string>
+
+    <string name="str_send_message">پیغام بھیجیں</string>
+
+    <string name="str_share_contact">رابطہ شیئر کریں</string>
+
+    <string name="str_add_to_favorites">پسندیدہ میں شامل کریں</string>
+
+    <string name="str_delete_this_contact">یہ رابطہ حذف کریں</string>
+
+    <string name="str_block_this_caller">اس کالر کو بلاک کریں</string>
+
+    <!--Theme Resource-->
+
+
+    <string name="theme">خیالیہ</string>
+
+    <string name="themeLight">مدھم</string>
+
+    <!--Font Resource-->
+
+
+    <string name="font">فونٹ</string>
+
+    <string name="fontLight">میڈیم</string>
+
+    <!--App Language Resource-->
+
+
+    <string name="appLang">ایپ کی زبان</string>
+
+    <string name="appLangLight">فون کی زبان (اردو)</string>
+
+    <!--Block Resource-->
+
+
+    <string name="block">رابطوں کو مسدود کریں</string>
+
+    <string name="blockLight">مسدود رابطے دکھائیں</string>
+
+    <!--Settings Resource-->
+
+
+    <string name="settings">ترتیبات</string>
+
+    <!--Back Resource-->
+
+
+    <string name="back">پیچھے</string>
+
+    <string name="title_activity_block_contact">رابطہ کی سرگرمی کو مسدود کریں</string>
+
+    <!--This string is used for square devices and overridden by hello_world invalues-round/strings.xml for round devices. -->
+
+
+    <string name="hello_world">ہیلو اسکوائر ورلڈ!</string>
+
+    <string name="str_block_contacts">رابطوں کو مسدود کریں</string>
+
+    <string name="yes">جی ہاں</string>
+
+    <string name="selectLanguage">زبان منتخب کریں</string>
+
+    <string name="went_worng">کچھ غلط ہو گیا براہ کرم دوبارہ کوشش کریں</string>
+
+    <string name="contact">رابطہ کریں</string>
+
+    <string name="edit">ترمیم</string>
+
+    <string name="unblock_caller">اس کالر کو غیر مقفل کریں</string>
+
+    <string name="contact_remove">رابطہ کامیابی سے ہٹا دیا گیا</string>
+    <string name="contact_remove_from_favourites">پسندیدہ سے رابطہ ہٹا دیا گیا</string>
+
+    <string name="contact_added">رابطہ کامیابی سے شامل ہو گیا</string>
+    <string name="contact_added_to_favourites">پسندیدہ میں رابطہ شامل کیا گیا</string>
+
+    <string name="confirm_to_block_number">اس نمبر کو مسدود کرنے کی تصدیق کریں؟</string>
+
+    <string name="contact_block">رابطہ مسدود ہے</string>
+
+    <string name="cancel">منسوخ کریں</string>
+
+    <string name="unblock_this_caller">اس کالر کو غیر مقفل کریں</string>
+
+    <string name="delete_contact">یہ رابطہ حذف کریں؟</string>
+
+    <string name="delete_contact_alert">آپ کی رابطہ فہرست سے نکال دیا جائے گا</string>
+
+    <string name="ok">ٹھیک ہے</string>
+
+    <string name="confirmation_of_unblock">اس نمبر کو غیر مسدود کرنے کی تصدیق کریں؟</string>
+
+    <string name="contact_unblock">بلاک شدہ سے رابطہ کریں</string>
+
+    <string name="idialer_become_default">ڈائلر پہلے سے طے شدہ ڈائلر بن جاتا ہے</string>
+
+    <string name="alert">الرٹ</string>
+
+    <string name="alert_massage">کال کی تاریخ دیکھنے اور کال کرنے کے لیے ، براہ کرم اس ایپ کو بطور ڈیفالٹ ڈائلر استعمال کرنے کی اجازت دیں اس ایپ کو مکمل طور پر چلانے کی اجازت بھی دیں</string>
+
+    <string name="dialpad">ڈائل پیڈ</string>
+
+    <string name="str_name_here">یہاں نام</string>
+
+    <string name="str_add_number">نمبر شامل کریں</string>
+
+    <string name="str_create_new_contact">نیا رابطہ بنائیں</string>
+
+    <string name="str_add_to_a_contact">کسی رابطے میں شامل کریں</string>
+
+    <string name="str_send_sms">ایس ایم ایس بھیجیں</string>
+
+    <string name="str_langauage_already_applied">زبان پہلے ہی لاگو ہے</string>
+
+    <string name="str_unblock_this_contact"> آپ کی بلاک لسٹ سے نکال دیا جائے گا</string>
+
+    <string name="str_unblock">غیر مسدود کریں</string>
+
+    <string name="str_contact_remove">رابطہ ہٹا دیا گیا</string>
+
+    <string name="str_unknown">نامعلوم</string>
+
+    <string name="str_add_contact">رابطہ شامل کریں +</string>
+
+    <string name="str_search_contacts">رابطے تلاش کریں</string>
+
+    <string name="str_no_miss_call">کوئی مس کال لاگز دستیاب نہیں</string>
+
+    <string name="str_all">تمام</string>
+
+    <string name="str_missed">چھوٹ گیا</string>
+
+    <string name="str_recent">حالیہ</string>
+
+    <string name="str_favourites">پسندیدہ</string>
+    <string name="str_contacts">رابطے</string>
+    <string name="str_keypad">کیپیڈ</string>
+
+    <string name="str_light_theme">روشنی</string>
+    <string name="str_dark_theme">سیاہ</string>
+
+    <string name="str_choose_theme">تھیم منتخب کریں</string>
+    <string name="str_yesterday">کل</string>
+    <string name="str_unblock_massage">بلاک لسٹ سے رابطہ ہٹا دیا گیا۔</string>
+    <string name="str_contact_not_found">رابطہ نہیں ملا۔</string>
+    <string name="str_enter_number">براہ کرم نمبر درج کریں۔</string>
+    <string name="str_select_sim">سم منتخب کریں۔</string>
+</resources>

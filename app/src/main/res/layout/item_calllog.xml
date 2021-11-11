@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_marginTop="5dp"
+    android:layout_marginLeft="10dp"
+    android:padding="4dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/linear_phoneNumber_recent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <LinearLayout
+        android:gravity="left"
+        android:layout_height="33dp"
+        android:layout_gravity="center|left"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:id="@+id/linearLayout_main"
+        android:layoutDirection="ltr"
+        >
+
+        <!--android:background="@drawable/circular_image_recents"-->
+
+        <ImageView
+            android:id="@+id/iv_calltype"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="center"
+            android:layoutDirection="ltr"
+            android:src="@drawable/ic_missedcall"
+            />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:paddingLeft="10dp"
+            android:orientation="horizontal"
+            android:gravity="left"
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_weight="6"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layoutDirection="ltr"
+                >
+
+                <TextView
+                    android:id="@+id/tv_name_favorite"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Maryum memorial Hospital Bahira Town Civic Center Phase 4"
+                    android:gravity="left"
+                    android:textColor="?colorOnSecondary"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:lines="1"
+                    android:ems="15"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:maxLines="1"
+                    android:gravity="left"
+                    android:text="03001234567"
+                    android:textSize="10sp"
+                    />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_duration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:layout_gravity="center"
+                android:maxLines="1"
+                android:text="@string/str_yesterday"
+                android:textSize="12sp"
+                android:gravity="center"
+                />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/iv_arrow"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center|right"
+            android:layout_weight="0.1"
+            android:src="@drawable/ic_outline_info_24"
+            android:layout_marginEnd="8dp"
+            />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/viewLine2"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/Light_Grey_color"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintEnd_toEndOf="@+id/linearLayout_main"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout_main"
+        app:layout_constraintStart_toStartOf="@+id/linearLayout_main"
+        />
+
+</LinearLayout>

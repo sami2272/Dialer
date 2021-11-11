@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    <string name="app_name">iDialer</string>-->
+    <string name="app_name">拨号器</string>
+    <!-- <string name="app_name">调用应用程序导航</string> -->
+    <!--  TODO: Remove or change this placeholder text  -->
+    <string name="opendialer">打开拨号器</string>
+    <string name="banneradUnitIdMainActivity">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="banneradUnitIdDialerActivity">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="interstitialadUnitIdContactDetailActivity">ca-app-pub-3940256099942544/1033173712</string>
+    <!--  TODO: Remove or change this placeholder text  -->
+    <string name="hello_blank_fragment">你好空白片段</string>
+    <string name="str_message">信息</string>
+    <string name="str_add_favorite">添加收藏夹</string>
+    <string name="str_call">称呼</string>
+    <string name="str_mobile">移动的</string>
+    <string name="str_send_message">发信息</string>
+    <string name="str_share_contact">分享联系方式</string>
+    <string name="str_add_to_favorites">添加到收藏夹</string>
+    <string name="str_delete_this_contact">删除此联系人</string>
+    <string name="str_block_this_caller">阻止此来电者</string>
+    <!-- Theme Resource -->
+    <string name="theme">主题</string>
+    <string name="themeLight">光</string>
+    <!-- Font Resource -->
+    <string name="font">字体</string>
+    <string name="fontLight">中等的</string>
+    <!-- App Language Resource -->
+    <string name="appLang">应用语言</string>
+    <string name="appLangLight">电话语言（中国人）</string>
+    <!-- Block Resource -->
+    <string name="block">阻止联系人</string>
+    <string name="blockLight">显示被阻止的联系人</string>
+    <!-- Settings Resource -->
+    <string name="settings">设置</string>
+    <!-- Back Resource -->
+    <string name="back">后退</string>
+    <string name="title_activity_block_contact">阻止联系活动</string>
+    <!--
+        This string is used for square devices and overridden by hello_world in
+        values-round/strings.xml for round devices.
+         -->
+    <string name="hello_world">你好方形世界！</string>
+    <string name="str_block_contacts">阻止联系人</string>
+    <string name="yes">是的</string>
+    <string name="selectLanguage">选择语言</string>
+    <string name="went_worng">出了点问题。请重试</string>
+    <string name="contact">接触</string>
+    <string name="edit">编辑</string>
+    <string name="unblock_caller">取消阻止此来电者</string>
+
+    <string name="contact_remove">联系人删除成功</string>
+    <string name="contact_remove_from_favourites">从收藏夹中删除联系人</string>
+
+    <string name="contact_added">联系人添加成功</string>
+    <string name="contact_added_to_favourites">联系人已添加到收藏夹</string>
+
+    <string name="confirm_to_block_number">确认屏蔽此号码？</string>
+    <string name="contact_block">联系人被阻止</string>
+    <string name="cancel">取消</string>
+    <string name="unblock_this_caller">取消阻止此来电者</string>
+    <string name="delete_contact">删除此联系人？</string>
+    <string name="delete_contact_alert">将从您的联系人列表中删除</string>
+    <string name="ok">好的</string>
+    <string name="confirmation_of_unblock">确认取消阻止此号码？</string>
+    <string name="contact_unblock">联系畅通无阻</string>
+    <string name="idialer_become_default">拨号器 成为默认拨号器</string>
+    <string name="alert">警报</string>
+    <string name="alert_massage">要查看通话记录和拨打电话，请允许将此应用用作默认拨号器。还允许完美运行此应用程序的权限。</string>
+    <string name="dialpad">拨号盘</string>
+    <string name="str_name_here">在此处命名</string>
+    <string name="str_add_number">加号码</string>
+    <string name="str_create_new_contact">创建新联系人</string>
+    <string name="str_add_to_a_contact">添加到联系人</string>
+    <string name="str_send_sms">发简讯</string>
+    <string name="str_langauage_already_applied">已应用语言</string>
+    <string name="str_unblock_this_contact">将从您的阻止列表中删除</string>
+    <string name="str_unblock">解除封锁</string>
+    <string name="str_contact_remove">联系人已删除</string>
+    <string name="str_unknown">未知</string>
+    <string name="str_add_contact">添加联系人 +</string>
+    <string name="str_search_contacts">搜索联系人</string>
+    <string name="str_no_miss_call">没有可用的未接电话记录</string>
+    <string name="str_all">全部</string>
+    <string name="str_missed">错过了</string>
+    <string name="str_recent">最近的</string>
+
+    <string name="str_favourites">收藏夹</string>
+    <string name="str_contacts">联系人</string>
+    <string name="str_keypad">键盘</string>
+
+
+    <string name="str_light_theme">光</string>
+    <string name="str_dark_theme">黑暗的</string>
+
+    <string name="str_choose_theme">选择主题</string>
+    <string name="str_yesterday">复活节</string>
+    <string name="str_unblock_massage">联系人已从阻止列表中删除</string>
+    <string name="str_contact_not_found">未找到联系人</string>
+    <string name="str_enter_number">请输入号码</string>
+    <string name="str_select_sim">选择模拟</string>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mifavourites"
+        android:title="@string/str_favourites"
+        android:icon="@drawable/favorites_selector"
+        android:iconTint="?android:textColor"
+        />
+    <item
+        android:id="@+id/miRecents"
+        android:title="@string/str_recent"
+        android:icon="@drawable/recents_selector"
+        android:iconTint="?android:textColor"
+        />
+    <item
+        android:id="@+id/miContacts"
+        android:title="@string/str_contacts"
+        android:icon="@drawable/contacts_selector"
+        android:iconTint="?android:textColor"
+        />
+    <item
+        android:id="@+id/midialler"
+        android:title="@string/str_keypad"
+        android:icon="@drawable/ic_dialpad"
+        android:iconTint="?android:textColor"
+        />
+
+</menu>

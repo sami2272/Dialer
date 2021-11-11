@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    <string name="app_name">iDialer</string>-->
+    <string name="app_name">iDialer</string>
+    <!--<string name="app_name">callingappbottomnavigation</string>-->
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="opendialer">افتح الطلب</string>
+
+    <string name="banneradUnitIdMainActivity">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="banneradUnitIdDialerActivity">ca-app-pub-3940256099942544/6300978111</string>
+
+    <string name="interstitialadUnitIdContactDetailActivity">ca-app-pub-3940256099942544/1033173712</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">مرحبا جزء فارغ</string>
+    <string name="str_message">رسالة</string>
+    <string name="str_add_favorite">إضافة مفضلات</string>
+    <string name="str_call">مكالمة</string>
+    <string name="str_mobile">التليفون المحمول</string>
+    <string name="str_send_message">أرسل رسالة</string>
+    <string name="str_share_contact">شارك جهة الإتصال</string>
+    <string name="str_add_to_favorites">اضافة الى المفضلة</string>
+    <string name="str_delete_this_contact">احذف جهة الاتصال هذه</string>
+    <string name="str_block_this_caller">منع هذا المتصل</string>
+
+    <!--Theme Resource-->
+    <string name="theme">سمة</string>
+    <string name="themeLight">ضوء</string>
+
+    <!--Font Resource-->
+    <string name="font">الخط</string>
+    <string name="fontLight">واسطة</string>
+
+    <!--App Language Resource-->
+    <string name="appLang">لغة التطبيق</string>
+    <string name="appLangLight">لغة الهاتف (عربي)</string>
+
+    <!--Block Resource-->
+    <string name="block">حظر جهات الاتصال</string>
+    <string name="blockLight">إظهار جهات الاتصال المحظورة</string>
+
+    <!--Settings Resource-->
+    <string name="settings">إعدادات</string>
+    <!--Back Resource-->
+    <string name="back">خلف</string>
+    <string name="title_activity_block_contact">BlockContactActivity</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">مرحبًا سكوير وورلد!</string>
+    <string name="str_block_contacts">حظر جهات الاتصال</string>
+    <string name="yes">نعم</string>
+    <string name="selectLanguage">اختار اللغة</string>
+    <string name="went_worng">حدث خطأ ما. أعد المحاولة من فضلك</string>
+    <string name="contact">اتصل</string>
+    <string name="edit">يحرر</string>
+    <string name="unblock_caller">قم بإلغاء حظر هذا المتصل</string>
+    <string name="contact_remove">تمت إزالة جهة الاتصال بنجاح</string>
+    <string name="contact_remove_from_favourites">تمت إزالة جهة الاتصال من المفضلة</string>
+    <string name="contact_added">تمت إضافة جهة الاتصال بنجاح</string>
+    <string name="contact_added_to_favourites">تمت إضافة جهة الاتصال إلى المفضلة</string>
+    <string name="confirm_to_block_number">تأكيد لحظر هذا الرقم؟</string>
+    <string name="contact_block">جهة الاتصال محظورة</string>
+    <string name="cancel">يلغي</string>
+    <string name="unblock_this_caller">قم بإلغاء حظر هذا المتصل</string>
+    <string name="delete_contact">هل تريد حذف جهة الاتصال هذه؟</string>
+    <string name="delete_contact_alert">ستتم إزالته من قائمة جهات الاتصال الخاصة بك</string>
+    <string name="ok">نعم</string>
+    <string name="confirmation_of_unblock">هل تريد التأكيد لإلغاء حظر هذا الرقم؟</string>
+    <string name="contact_unblock">الاتصال غير محظور</string>
+    <string name="idialer_become_default">أصبح iDialer طالبًا افتراضيًا</string>
+    <string name="alert">انذار</string>
+    <string name="alert_massage">لعرض سجل المكالمات وإجراء المكالمات ، يرجى السماح لهذا التطبيق باستخدام برنامج الاتصال الافتراضي. اسمح أيضًا بالأذونات لتشغيل هذا التطبيق بشكل مثالي.</string>
+    <string name="dialpad">لوحة الاتصال</string>
+    <string name="str_name_here">الاسم هنا</string>
+    <string name="str_add_number">أضف رقم</string>
+    <string name="str_create_new_contact">إنشاء اتصال جديد</string>
+    <string name="str_add_to_a_contact">أضف إلى جهة اتصال</string>
+    <string name="str_send_sms">أرسل رسالة نصية قصيرة</string>
+    <string name="str_langauage_already_applied">اللغة المطبقة بالفعل</string>
+    <string name="str_unblock_this_contact">ستتم إزالته من قائمة الحظر الخاصة بك</string>
+    <string name="str_unblock">رفع الحظر</string>
+    <string name="str_contact_remove">تمت إزالة جهة الاتصال</string>
+    <string name="str_unknown">مجهول</string>
+    <string name="str_add_contact">إضافة جهة اتصال +</string>
+    <string name="str_search_contacts">اتصالات بحث</string>
+    <string name="str_no_miss_call">لا توجد سجلات مكالمات فائتة متاحة</string>
+    <string name="str_all">الجميع</string>
+    <string name="str_missed">مفتقد</string>
+    <string name="str_recent">حديث</string>
+    <string name="str_favourites">المفضلة</string>
+    <string name="str_contacts">لوحة المفاتيح</string>
+    <string name="str_keypad">لوحة المفاتيح</string>
+
+    <string name="str_light_theme">ضوء</string>
+    <string name="str_dark_theme">داكن</string>
+
+    <string name="str_choose_theme">اختيار موضوع</string>
+
+    <string name="str_yesterday">في الامس</string>
+    <string name="str_unblock_massage">تمت إزالة جهة الاتصال من قائمة الحظر</string>
+    <string name="str_contact_not_found">جهة الاتصال غير موجودة</string>
+    <string name="str_enter_number">الرجاء إدخال الرقم</string>
+    <string name="str_select_sim">حدد Sim</string>
+</resources>

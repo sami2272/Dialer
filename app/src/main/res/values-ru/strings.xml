@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">iDialer</string>
+
+
+    <string name="banneradUnitIdMainActivity">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="banneradUnitIdDialerActivity">ca-app-pub-3940256099942544/6300978111</string>
+
+    <string name="interstitialadUnitIdContactDetailActivity">ca-app-pub-3940256099942544/1033173712</string>
+
+    <string translatable="true" name="hello_blank_fragment">Привет пустой фрагмент</string>
+
+    <string translatable="true" name="str_add_favorite">добавить в избранное</string>
+
+    <string translatable="true" name="str_call">вызов</string>
+
+    <string name="str_message">сообщение</string>
+
+    <string name="str_mobile">мобильный</string>
+
+    <string name="str_send_message">Отправить сообщение</string>
+
+    <string name="str_share_contact">Поделиться контактом</string>
+
+    <string name="str_add_to_favorites">Добавить в избранное</string>
+
+    <string name="str_delete_this_contact">Удалить этот контакт</string>
+
+    <string name="str_block_this_caller">Заблокировать этого абонента</string>
+
+    <string name="theme">Тема</string>
+
+    <string name="themeLight">Свет</string>
+
+    <string name="font">Шрифт</string>
+
+    <string name="fontLight">Середина</string>
+
+    <string name="appLang">Язык приложения</string>
+
+    <string name="appLangLight">Язык телефона (русский)</string>
+
+    <string name="block">Заблокировать контакты</string>
+
+    <string name="blockLight">Показать заблокированные контакты</string>
+
+    <string name="settings">Настройки</string>
+
+    <string name="back">Назад</string>
+
+    <string name="title_activity_block_contact">BlockContactActivity</string>
+
+    <string name="hello_world">Привет, Square World!</string>
+
+    <string name="str_block_contacts">Заблокировать контакты</string>
+
+    <string name="yes">да</string>
+
+    <string name="selectLanguage">Выбрать язык</string>
+
+    <string name="went_worng">Что-то пошло не так. Пожалуйста, попытайтесь еще раз</string>
+
+    <string name="contact">Контакт</string>
+
+    <string name="edit">Редактировать</string>
+
+    <string name="unblock_caller">Разблокировать этого абонента</string>
+
+    <string name="contact_remove">Контакт удалить успешно</string>
+    <string name="contact_remove_from_favourites">Контакт удален из избранного</string>
+
+    <string name="contact_added">Контакт успешно добавлен</string>
+    <string name="contact_added_to_favourites">Контакт добавлен в избранное</string>
+
+    <string name="confirm_to_block_number">Подтвердите блокировку этого номера?</string>
+
+    <string name="contact_block">Контакт заблокирован</string>
+
+    <string name="cancel">Отмена</string>
+
+    <string name="unblock_this_caller">Разблокировать этого абонента</string>
+
+    <string name="delete_contact">Удалить контакт</string>
+
+    <string name="delete_contact_alert">будет удален из вашего списка контактов</string>
+
+    <string name="ok">Ok</string>
+
+    <string name="confirmation_of_unblock">Подтвердить разблокировку этого номера?</string>
+
+    <string name="contact_unblock">Контакт разблокирован</string>
+
+    <string name="idialer_become_default">iDialer стал дозвонщиком по умолчанию</string>
+
+    <string name="alert">Тревога</string>
+
+    <string name="alert_massage">Чтобы просматривать историю звонков и совершать звонки, разрешите этому приложению использовать номеронабиратель по умолчанию. Также разрешите разрешения для безупречного запуска этого приложения.</string>
+
+    <string name="dialpad">Клавиатура для набора номера</string>
+
+    <string name="str_name_here">Имя здесь</string>
+
+    <string name="str_add_number">Добавьте число</string>
+
+    <string name="str_create_new_contact">Создать новый контакт</string>
+
+    <string name="str_add_to_a_contact">Добавить в контакт</string>
+
+    <string name="str_send_sms">Отправить смс</string>
+
+    <string name="str_langauage_already_applied">Язык уже применен</string>
+
+    <string name="str_unblock_this_contact">будет удален из вашего черного списка</string>
+
+    <string name="str_unblock">Разблокировать</string>
+
+    <string name="str_contact_remove">Контакт удален</string>
+
+    <string name="str_unknown">Неизвестный</string>
+
+    <string name="str_add_contact">Добавить контакт +</string>
+
+    <string name="str_search_contacts">Поиск контактов</string>
+
+    <string name="str_no_miss_call">Журналов пропущенных вызовов нет</string>
+
+    <string name="str_all">Все</string>
+
+    <string name="str_missed">Пропущенный</string>
+
+    <string name="str_recent">Недавний</string>
+
+    <string name="opendialer">Открыть номеронабиратель</string>
+
+    <string name="str_favourites">Избранное</string>
+    <string name="str_contacts">Контакты</string>
+    <string name="str_keypad">Клавиатура</string>
+
+    <string name="str_light_theme">Свет</string>
+    <string name="str_dark_theme">Темный</string>
+
+    <string name="str_choose_theme">Выберите тему</string>
+    <string name="str_yesterday">Вчера</string>
+    <string name="str_unblock_massage">Контакт удален из черного списка</string>
+    <string name="str_contact_not_found">Контакт не найден</string>
+    <string name="str_enter_number">Пожалуйста, введите номер</string>
+    <string name="str_select_sim">Выберите Сима</string>
+</resources>

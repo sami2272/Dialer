@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1056461938371",
+    "project_id": "idialer-71b21",
+    "storage_bucket": "idialer-71b21.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1056461938371:android:0be989dd8ab62297130c76",
+        "android_client_info": {
+          "package_name": "com.dialler.ct"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1056461938371-hovouro84f37kr33ncjl453l7vj7b79p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dialler.ct",
+            "certificate_hash": "07a010ef3715ba7f75a7b8f7a277d497a6547c07"
+          }
+        },
+        {
+          "client_id": "1056461938371-as3r8g36etacuo7ca0ivnor5e23kvm0e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLaGxT2f4lbo4Kf5zQeFYRTJcikhoYHks"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1056461938371-as3r8g36etacuo7ca0ivnor5e23kvm0e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

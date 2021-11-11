@@ -1,0 +1,90 @@
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+    id 'kotlin-android-extensions'
+    id 'com.google.gms.google-services'
+    id 'com.google.firebase.crashlytics'
+}
+
+android {
+    compileSdkVersion 30
+    buildToolsVersion "30.0.3"
+
+    lintOptions {
+        checkReleaseBuilds false
+    }
+    defaultConfig {
+        applicationId "com.dialler.ct"
+
+        minSdkVersion 24
+        multiDexEnabled true
+        targetSdkVersion 30
+
+        versionCode 34
+        versionName "1.6.4"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+}
+
+dependencies {
+
+    implementation project(path: ':permissions')
+
+    implementation 'junit:junit:4.+'
+    implementation 'androidx.core:core-ktx:1.3.2'
+    implementation 'androidx.test.ext:junit:1.1.2'
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.test.espresso:espresso-core:3.3.0'
+    implementation 'com.google.android.material:material:1.3.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+    implementation 'com.google.android.material:material:1.2.0-alpha04'
+
+    implementation 'com.karumi:dexter:6.2.2'
+    implementation 'com.timehop.stickyheadersrecyclerview:library:0.4.3@aar'
+
+//  Glide v4 uses this new annotation processor -- see https://bumptech.github.io/glide/doc/generatedapi.html
+//  implementation 'com.github.bumptech.glide:compiler:4.11.0'
+//  implementation 'com.github.bumptech.glide:glide:4.11.0'
+
+    def multidex_version = "2.0.1"
+    implementation "androidx.multidex:multidex:$multidex_version"
+
+//  glide
+    implementation 'com.github.bumptech.glide:glide:4.12.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.12.0'
+
+//  Google ads
+//    implementation 'com.google.android.gms:play-services-ads:20.3.0'
+     implementation 'com.google.android.gms:play-services-ads:20.4.0'
+
+//  facebook Mediation
+//  implementation 'com.google.ads.mediation:facebook:6.3.0.0'
+
+//  firebase Crashlytics
+    implementation platform('com.google.firebase:firebase-bom:28.4.0')
+    implementation 'com.google.firebase:firebase-crashlytics'
+    implementation 'com.google.firebase:firebase-analytics'
+
+//  Alphabets scroller
+    implementation      'com.jakewharton:butterknife:10.2.3'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:10.2.3'
+    implementation      'com.github.myinnos:AlphabetIndex-Fast-Scroll-RecyclerView:1.0.95'
+
+}
